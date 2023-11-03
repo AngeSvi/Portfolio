@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #11113c;
+}
+
+img{
+    display: block;
+    margin-left : 40%;
+}
+
+h1{
+    margin: 15px 0 0 53%; /*haut droite bas gauche*/
+    font-family: Times New Roman;
+    color: white;
+}
+
+h4{
+    margin : 0;
+    font-family: Times New Roman;
+    font-size: 12px;
+    margin-left: 57%;
+    color: white;    
+}
+
+h2{
+    font-family: Times New Roman;
+    margin-left: 58%;
+    color: white; 
+    text-decoration-line : underline;
+    
+}
+
+.link{
+    color: #aa0967;
+    text-decoration-line: None;
+    margin-left: 50%;
+}

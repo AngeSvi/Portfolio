@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #066a1a;
+}
+
+h1{
+  font-family: Helvetica;
+  font-size: 24px;
+  color: #159ce0;
+  background-color: #d3d345;
+  text-align:center
+    
+}
+
+.ange{
+    font-family: Times New Roman;
+    font-size: 48px;
+    color: #000000;
+    background-color: #159ce0;
+    text-align: center;
+}
+
+.day{
+    font-family: Franklin Gothic Medium;
+    font-size: 18px;
+    color: #000000;
+    background-color: #159ce0;
+    text-align: left;    
+}
+
+p{
+  font-family: monospace;
+  font-size: 10px;
+  color: blue;
+   text-align:center;
+    
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
