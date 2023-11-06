@@ -1,10 +1,5 @@
 import requests, json, os 
-from requests.auth import HTTPBasicAuth #authenticates our credentials
-
-
-
-CLIENT_ID = "dedf2f53ad924478af20048af3b30541"
-CLIENT_SECRET = "3032aeedbea945649d474be2062df42e"
+from requests.auth import HTTPBasicAuth #authenticates our credential
 
 clientID = os.environ['CLIENT_ID'] #fonctionne pour replit, à reprendre
 clientSecret = os.environ['CLIENT_SECRET']#fonctionne pour replit, à reprendre
