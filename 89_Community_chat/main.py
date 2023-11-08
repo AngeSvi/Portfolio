@@ -7,7 +7,7 @@ from datastore import *
 
 sessionKey = os.environ["SECRET_KEY"] #fonctionne sur replit
 
-db["admin"] = {"Ange":"patate_royale", "Jean":"royale_patate"}
+db["admin"] = {"Lulu":"mdp_lulu", "Toto":"mdp_toto"}
 db["users"] = {"Bob":"mdp", "Alice":"hatter"}
 
 data = dataStore()
