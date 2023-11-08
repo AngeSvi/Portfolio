@@ -1,8 +1,8 @@
 import requests, json, os 
 from requests.auth import HTTPBasicAuth #authenticates our credential
 
-clientID = os.environ['CLIENT_ID'] #fonctionne pour replit, à reprendre
-clientSecret = os.environ['CLIENT_SECRET']#fonctionne pour replit, à reprendre
+clientID = os.environ['CLIENT_ID'] #fonctionne sur replit
+clientSecret = os.environ['CLIENT_SECRET']#fonctionne sur replit
 
 url = "https://accounts.spotify.com/api/token" #adresse à laquelle se connecter
 
