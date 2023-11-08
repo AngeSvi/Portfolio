@@ -2,7 +2,7 @@ from flask import Flask, request, redirect, session
 from replit import db
 import os
 
-sessionKey = "code" #??
+sessionKey = os.environ["SECRET_KEY"] #fonctionne sur replit
 
 app = Flask(__name__)
 app.secret_key = "code"
