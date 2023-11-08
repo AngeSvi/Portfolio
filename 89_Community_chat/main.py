@@ -5,8 +5,7 @@ from fonctions import *
 from datetime import date, datetime
 from datastore import *
 
-#à modifier
-sessionKey = b'&\xb2\xa1\xaaZ\xd2\xd1\x1e\xaaU\x9cV\x8fk\x07v'
+sessionKey = os.environ["SECRET_KEY"] #fonctionne sur replit
 
 db["admin"] = {"Ange":"patate_royale", "Jean":"royale_patate"}
 db["users"] = {"Bob":"mdp", "Alice":"hatter"}
