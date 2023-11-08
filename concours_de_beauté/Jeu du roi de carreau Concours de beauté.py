@@ -63,7 +63,6 @@ while len(players) != 1 :
 print(f"""Tous vos adversaire ont été éliminés {list(players.keys())[0]}. Félicitations, vous remportez la partie.""")
 
 
-#faire une annonce de règle quand un joueur est éliminé 
-#nettoyage
+#faire une annonce de règle quand un joueur est éliminé
 #bot discord ?
 #base de données pour stocker
